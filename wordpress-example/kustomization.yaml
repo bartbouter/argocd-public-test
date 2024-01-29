@@ -3,5 +3,6 @@ secretGenerator:
   literals:
   - password=YOUR_PASSWORD
 resources:
+  - https://raw.githubusercontent.com/bartbouter/argocd-public-test/main/wordpress-example/namespace.yaml
   - https://raw.githubusercontent.com/bartbouter/argocd-public-test/main/wordpress-example/mysql-deployment.yaml
   - https://raw.githubusercontent.com/bartbouter/argocd-public-test/main/wordpress-example/wordpress-deployment.yaml
